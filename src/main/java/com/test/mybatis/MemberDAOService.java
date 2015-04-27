@@ -16,7 +16,6 @@ public class MemberDAOService implements MemberDAO {
 	public ArrayList<Member> getMembers() {
 		ArrayList<Member> result = new ArrayList<Member>();
 		MemberMapper memberMapper = sqlSession.getMapper(MemberMapper.class);
-		//getMember()의 메소드명과 mapper.mxl과 id는 동일해야한다.
 		result = memberMapper.getMembers();
 		
 		return result;
