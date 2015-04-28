@@ -16,6 +16,7 @@
 <!-- 	<context:component-scan base-package="com.test.dao" />
  -->	
 	<context:component-scan base-package="com.test.mybatis" />
+
 	<!-- MyBatis -->
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.SimpleDriverDataSource">

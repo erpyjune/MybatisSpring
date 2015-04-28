@@ -1,13 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page import ="java.util.*,com.test.mybatis.*" %>
     
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>°á°úÃ¢</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<title>ê²°ê³¼ì°½</title>
 </head>
 <body>
 
@@ -17,7 +16,7 @@
 		 <td align="center">email</td>
 		 <td align="center">phone</td>
 	 </tr>
-	 <!-- result´Â contollerÀÇ addObject·Î ºÎÅÍ °¡Á®¿Â´Ù. -->
+	 <!-- resultëŠ” contollerì˜ addObjectë¡œ ë¶€í„° ê°€ì ¸ì˜¨ë‹¤. -->
 	 <c:forEach items="${result}" var="member">
 		 <tr>
 			 <td>${member._name}</td>
